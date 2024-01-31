@@ -48,7 +48,7 @@ fun Test_UI() {
             style = MaterialTheme.typography.titleLarge
         )
         OutlinedTextField(value = "", onValueChange = {}, modifier = appModifier)
-        Button(onClick = { /*TODO*/ }, modifier = appModifier, shape = MaterialTheme.shapes.small) {
+        Button(onClick = { }, modifier = appModifier, shape = MaterialTheme.shapes.small) {
             Text(text = "Submit")
         }
     }
